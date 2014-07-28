@@ -1,6 +1,9 @@
+.container {
+  font-family: 'Lato',sans-serif;
+  padding: 0px;
+}
+
 section.page {
-  font-family: arial;
-  padding: 30px;
   overflow-y:auto;
   height:100vh;
   min-height: 160px;
@@ -11,9 +14,11 @@ section.intro {
   color: white;
 }
 
+section.intro h1, section.intro h2 {
+  padding-left: 30px;
+}
+
 section.intro h1 {
-  font-family: arial-black;
-  font-weight: 0;
   text-transform: uppercase;
   font-size: 5em;
 }
