@@ -10,7 +10,7 @@ section.page {
   min-height: 160px;
 }
 
-section.intro {
+section.intro section.contact {
   background: #CCD0D9;
   color: #121013;
   padding: 0px;
