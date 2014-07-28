@@ -3,14 +3,45 @@
   padding: 0px;
 }
 
+nav.navbar {
+  background-color: #c7cbd4;
+}
+
+ul.nav > li > a {
+  color: #121013
+}
+
+a.navbar-brand {
+  color: #121013
+}
+
 section.page {
-  padding: 30px;
+  padding: none;
   overflow-y:auto;
   height:100vh;
   min-height: 160px;
 }
 
-section.intro section.contact {
+section.intro {
+  background: white;
+  padding: 0px 30px;
+}
+
+section.intro h1 {
+  text-transform: uppercase;
+  font-size: 5em;
+  font-weight: 800;
+  color: #ee6926;
+}
+
+section.intro .btn-success {
+  background: #68d675;
+  border-color: #68d675;
+  color: white;
+}
+
+
+section.contact {
   background: #CCD0D9;
   color: #121013;
   padding: 0px;
@@ -21,15 +52,6 @@ section.running {
   color: #121013;
 }
 
-section.intro h1, section.intro h2 {
-  padding: 0px 30px;
-}
-
-section.intro h1 {
-  text-transform: uppercase;
-  font-size: 5em;
-  font-weight: 800;
-}
 
 section.running p {
   font-size: 1.3em;
