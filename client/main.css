@@ -1,1 +1,23 @@
-/* CSS declarations go here */
+section.page {
+  font-family: arial;
+  padding: 30px;
+  overflow-y:auto;
+  height:100vh;
+  min-height: 160px;
+}
+
+section.intro {
+  background: black;
+  color: white;
+}
+
+section.intro h1 {
+  font-family: arial-black;
+  font-weight: 0;
+  text-transform: uppercase;
+  font-size: 5em;
+}
+
+section.running p {
+  font-size: 1.3em;
+}
