@@ -22,13 +22,13 @@ section.page {
   min-height: 160px;
 }
 
-section.intro {
+section#subscribe {
   background: white;
   padding: 0px 30px;
   text-align: center;
 }
 
-section.intro h1 {
+section#subscribe h1 {
   text-transform: uppercase;
   font-size: 5em;
   font-weight: 800;
@@ -36,12 +36,12 @@ section.intro h1 {
   margin: 75px 0;
 }
 
-section.intro h2 {
+section#subscribe h2 {
   font-size: 1.7em;
   margin: 2em 0;
 }
 
-section.intro .btn-success {
+section#subscribe .btn-success {
   background: #ee6926;
   border-color: #ee6926;
   color: white;
@@ -53,19 +53,19 @@ section.personas {
   color: white
 }
 
-
-section.contact {
-  background: #CCD0D9;
+section#contact {
+  background: #red;
   color: #121013;
   padding: 0px;
 }
 
-section.running {
+section#running {
   background: #C7CBD4;
   color: #121013;
 }
 
 
-section.running p {
+section1running p {
   font-size: 1.3em;
 }
+
