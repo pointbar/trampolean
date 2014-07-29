@@ -1,15 +1,3 @@
-nav.navbar {
-  background-color: #c7cbd4;
-}
-
-ul.nav > li > a {
-  color: #121013
-}
-
-a.navbar-brand {
-  color: #121013
-}
-
 section.page {
   padding: none;
   overflow-y:auto;
