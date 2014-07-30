@@ -1,0 +1,38 @@
+section#running {
+  background: @orange;
+  color: @white;
+  padding: 1em 15px;
+  
+  h2 {
+    margin: 1.5em calc(25%);
+    padding: 1.5em 0;
+    border-top: 1px solid @white;
+    border-bottom: 1px solid @white;
+    text-shadow: 2px 2px 1px rgba(0,0,0,.25);
+  }
+
+  h3 {
+    margin-top: 1.5em;
+    font-size: 1.2em;
+    font-weight: 700;
+    span {
+      font-weight: 300;
+      font-style: italic;
+    }
+  }
+
+  p {
+    color: @black;
+    font-size: 1.2em;
+    margin: 0em calc(25%);
+    text-align: justify;
+  }
+
+  a {
+    color: @white;
+    &:hover {
+      color: lighten(@white, 30%);
+    }
+  }
+}
+
