@@ -9,20 +9,55 @@
 @white: #faf8fb;
 @grey: #c7cbd4;
 @greyLight: #ccd0d9;
+@red: #DD0000;
 
 body {
   font-family: 'Lato',sans-serif;
 }
 
-/* to center content in vertical set padding in each section#id */
-.container-fluid {
-  text-align: center;
-  height:100%;
+section {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  height: 100%;
   min-height: 100vh;
 }
 
+.container-fluid {
+  text-align: center;
+}
+
+div.row {
+  display:table-cell;
+  vertical-align:middle;
+  text-align:center;
+}
+
 h1 {
-  font-size: 5em;
+  font-size: 4em;
+  font-weight: 600;
+  margin: 1em 0;
+  margin-top: 0;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+.red {
+  color: @red;
+}
+
+.black {
+  color: @black;
+}
+
+.little {
+  font-size: 0.8em;
+}
+
+a.btn {
+  margin-top: 2em;
 }
 
 .btn-success {
@@ -33,6 +68,11 @@ h1 {
   &:hover {
     background: darken(@green, 25%);
   }
+}
+
+i.fa {
+  text-align: center;
+  font-size: 5em;
 }
 
 
