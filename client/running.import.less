@@ -3,7 +3,7 @@ section#running {
   color: @white;
 
   h2 {
-    margin: 1.5em calc(25%);
+    margin: 1.5em calc(25%) .5em;
     padding: .5em;
     border-top: 1px solid @white;
     border-bottom: 1px solid @white;
@@ -11,7 +11,8 @@ section#running {
   }
 
   h3 {
-    font-size: 1.2em;
+    padding: 1em;
+    font-size: 1.25em;
     font-weight: 700;
     span {
       font-weight: 300;
@@ -19,15 +20,16 @@ section#running {
   }
 
   p {
-    color: @black;
+    color: @white;
     margin: 0em calc(25%);
     text-align: left;
+    padding: 1em;
   }
 
   a {
-    color: @white;
+    color: lighten(@black, 20%);
     &:hover {
-      color: lighten(@white, 30%);
+      color: @black;
     }
   }
 }
