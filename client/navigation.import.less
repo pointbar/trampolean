@@ -2,16 +2,26 @@ nav.navbar {
   background-color: white;
   margin: 0 auto;
 
-  ul.nav li.active {
-      background: @orange;
+  ul.nav li {
+    i.fa {
+      font-size: inherit;
+    }
+    &.active {
+      &.intro {
+        background: transparent;
+      }
+      &.personas {
+        background: @blue;
+
+        a {
+          color: @white;
+        }
+      }
     }
 
-  ul.nav li a {
+    a {
       color: #121013;
     }
-
-  a.navbar-brand {
-    color: #121013
   }
 }
 
