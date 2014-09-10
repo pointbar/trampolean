@@ -1,17 +1,84 @@
-/*
-  This file import our style for main template
+/* color vars from
+ * http://www.thedayscolor.com/wallpapers/052614_op1.jpg
+ */
 
-  default.import.less contains default styles
-  templatename.import.less contains styles for templatename ex:
-  subscribe.import.less contains styles for {{> subscribe}}
-*/
+@orange: #ee6926;
+@blue: #5cb6f2;
+@green: #68d675;
+@black: #121013;
+@white: #faf8fb;
+@grey: #c7cbd4;
+@greyLight: #ccd0d9;
+@red: #DD0000;
 
-@import "default.import.less";
-@import "navigation.import.less";
-@import "intro.import.less";
-@import "personas.import.less";
-@import "offer.import.less";
-@import "running.import.less";
-@import "contact.import.less";
-@import "book.import.less";
+html {
+  height: 100%;
+}
 
+body {
+  font-family: 'Lato',sans-serif;
+  min-height: 100%;
+  height: 100%;
+  padding-top: 50px;
+  position: relative;
+}
+
+section {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+}
+
+.container-fluid {
+  text-align: center;
+}
+
+div.row {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+h1 {
+  font-size: 4em;
+  font-weight: 600;
+  margin: 0;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+.red {
+  color: @red;
+}
+
+.black {
+  color: @black;
+}
+
+.little {
+  font-size: 0.8em;
+}
+
+a.btn {
+  margin-top: 2em;
+}
+
+.btn-success {
+  background: @green;
+  border-color: transparent;
+  color: @white;
+
+  &:hover {
+    background: darken(@green, 25%);
+  }
+}
+
+span.fluo {
+  padding: 8px;
+  padding-top: 5px;
+  background-color: #FF0;
+}
