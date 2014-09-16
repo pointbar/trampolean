@@ -1,0 +1,4 @@
+#! /bin/sh
+
+meteor deploy trampolean.meteor.com
+meteor deploy http://www.trampolean.fr
