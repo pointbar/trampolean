@@ -10,7 +10,9 @@ Meteor.startup(function() {
       user.offer = user.offer || 0;
       user.updated_date = new Date();
 
-      document.URL.search('#offer$') && user.offer++;
+      if (document.URL.search('#offer$') !== -1) {
+        user.offer++;
+      };
 
       if (user._id) {
         Meteor.call('updateStat', user._id, user);

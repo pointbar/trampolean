@@ -1,7 +1,5 @@
 Meteor.startup(function () {
 
-  Stats.remove({})
-
   Meteor.publish('stats', function () {
     return Stats.find();
   });
