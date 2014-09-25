@@ -7,11 +7,11 @@ Meteor.startup(function() {
     headers.ready(function() {
       var user =  Stats.findOne({'ip': headers.get('x-forwarded-for')}) || {};
 
-      user.offer = user.offer || 0;
+      user.linked = user.linked || 0;
       user.updated_date = new Date();
 
       if (document.URL.search('#linked$') !== -1) {
-        user.offer++;
+        user.linked++;
       };
 
       if (user._id) {
