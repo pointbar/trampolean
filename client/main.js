@@ -10,7 +10,7 @@ Meteor.startup(function() {
       user.offer = user.offer || 0;
       user.updated_date = new Date();
 
-      if (document.URL.search('#offer$') !== -1) {
+      if (document.URL.search('#linked$') !== -1) {
         user.offer++;
       };
 
